@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        // Create a list of grocery items
+        List<string> groceryItems = new List<string>
+        {
+            "Apples",
+            "Bananas",
+            "Milk",
+            "Eggs",
+            "Bread"
+        };
+
+        // Display the grocery list
+        Console.WriteLine("Grocery List:");
+        foreach (string item in groceryItems)
+        {
+            Console.WriteLine(item);
+        }
+    }
+}
