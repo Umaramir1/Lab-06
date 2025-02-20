@@ -13,6 +13,7 @@ class Program
             "Milk",
             "Eggs",
             "Bread"
+            "biscuit"
         };
 
         // Display the grocery list
